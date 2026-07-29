@@ -1,0 +1,19 @@
+{
+  "name": "viral-short-ai",
+  "version": "1.0.0",
+  "description": "Lightweight AI service that generates viral 9:16 short-video scripts + image prompts. Designed to run on Render Free plan (400-450MB RAM, 0.1 CPU, no GPU) by offloading actual model inference to the free Groq API.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0"
+  }
+}
